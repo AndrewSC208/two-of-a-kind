@@ -1,6 +1,5 @@
 /* 
-  # Programming Proficiency Test
-
+  
   Assumes basic JavaScript knowledge; jQuery knowledge helps a lot.
 
   ## Exercises
