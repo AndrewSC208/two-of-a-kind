@@ -1,0 +1,56 @@
+body {
+    background-color: #308b5a;
+    color: #fef72c;
+    font-family: Helvetica, sans-serif;
+    margin: 1em 2em;
+}
+h1 {
+    text-shadow: 1px 2px #444;
+}
+
+/* Cards */
+.card {
+    height: 125px;
+    width: 100px;
+}
+.card.pair0 {
+    border-top: 3px solid #f33;
+    padding: 0.25em 0 0.75em;
+}
+.card.pair1 {
+    border-top: 3px solid #33f;
+    padding: 0.25em 0 0.75em;
+}
+
+/* Hands */
+.hand {
+    box-shadow: 4px 4px 6px 4px #444;
+    margin: 4em 0;
+    padding: 1em;
+}
+.hand.winning {
+    background-color: #44C880;
+}
+.hand.winning h1:after {
+    content: " Wins!";
+}
+
+/* Button */
+.buttons {
+    text-align: center;
+}
+.buttons button {
+    background-color: #4b1124;
+    border: 4px double #cfb338;
+    box-shadow: 4px 4px 5px #333;
+    color: #eee;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 0.5em 2em;
+}
+.buttons button:active {
+    position: relative;
+    top: 4px;
+    left: 4px;
+    box-shadow: none;
+}
